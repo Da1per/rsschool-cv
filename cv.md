@@ -3,7 +3,7 @@ Alisher Rakhmatullaev
 
 My Contact Info
 ===============
-* Address: Minsk, Belarua
+* Address: Minsk, Belarus 
 * Phone:-
 * E-mail: kiborg7075@gmail.com
 * LinkedIn: [alisher-rakhmatullaev](https://www.linkedin.com/in/alisher-rakhmatullaev-b35482255/)
