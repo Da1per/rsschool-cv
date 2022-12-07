@@ -15,7 +15,7 @@ Summary
 
 Skils
 ===============
-* HTNL
+* HTML
 * CSS (SASS, Bootstrap, BEM).
 * JavaScript(ES6+,DOM,OOP,Functional Programming).
 * Version control: Git .
