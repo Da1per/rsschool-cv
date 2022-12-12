@@ -13,57 +13,58 @@
 <body>
     <header class="header">
         <div class="container">
-            <nav class="navBar">
-                <ul class="navList">
-                    <li><a href="#">&#60;	&#8260; <span class="textCode"> About</span></a>	&#62;</li>
-                    <li><a href="#">&#60;	&#8260; <span class="textCode"> Contacts</span>&#62;</a></li>
-                    <li><a href="#">&#60;	&#8260; <span class="textCode"> Skils</span>&#62;</a></li>
-                    <li><a href="#">&#60;	&#8260; <span class="textCode"> Code</span>&#62;</a></li>
-                    <li><a href="#">&#60;	&#8260; <span class="textCode"> Projects</span>&#62;</a></li>
-                    <li><a href="#">&#60;	&#8260; <span class="textCode"> Education</span>&#62;</a></li>
-                    <li><a href="#">&#60;	&#8260; <span class="textCode"> English</span>&#62;</a></li>
+            <nav class="nav_bar">
+                <ul class="nav_list">
+                    <li><a class="nd nav_link" href="#">&#60;	&#8260; <span class="text_code"> About</span></a>	&#62;</li>
+                    <li><a class="nd nav_link" href="#">&#60;	&#8260; <span class="text_code"> Contacts</span>&#62;</a></li>
+                    <li><a class="nd nav_link" href="#">&#60;	&#8260; <span class="text_code"> Skils</span>&#62;</a></li>
+                    <li><a class="nd nav_link" href="#">&#60;	&#8260; <span class="text_code"> Code</span>&#62;</a></li>
+                    <li><a class="nd nav_link" href="#">&#60;	&#8260; <span class="text_code"> Projects</span>&#62;</a></li>
+                    <li><a class="nd nav_link" href="#">&#60;	&#8260; <span class="text_code"> Education</span>&#62;</a></li>
+                    <li><a class="nd nav_link" href="#">&#60;	&#8260; <span class="text_code"> English</span>&#62;</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="container">
-            <div class="about">
-                <h1> About = </h1>
+        <div class="container flex">
+            <h1 class="mt">My CV</h1>
+            <div id="about" class="shadow mt">
+                <h2> About = </h2>
                 &#123;
-                <ul class="info codeFormat">	
-                    <li>name : <span class="textCodeOrange">"Alisher Rakhmatullaev"</span>,</li>
-                    <li>position : <span class="textCodeOrange">"Junior Frontend Developer</span></li>
+                <ul id="info" class="code_format">	
+                    <li>name : <span class="text_code_orange">"Alisher Rakhmatullaev"</span>,</li>
+                    <li>position : <span class="text_code_orange">"Junior Frontend Developer</span></li>
                 </ul> 
                 &#125;
             </div>
-            <div class="contacts mt">
+            <div id="contacts" class="mt shadow">
                 <h2>  Contacts = </h2>
                 &#123;
-                <ul class="contactInfo codeFormat">
-                    <li>address:<span class="textCodeOrange">"Minsk ,Belarus"</span> ,</li>
-                    <li>e-mail:<span class="textCodeOrange">"kiborg7075@gmail.com"</span> ,</li>
-                    <li>linkedIn:<a href="https://www.linkedin.com/in/alisher-rakhmatullaev-b35482255/"class="textCodeOrange">"alisher-rakhmatullaev"</a> ,</li>
-                    <li>gitHub:<a href="https://github.com/Da1per"class="textCodeOrange">"Da1per"</a> ,</li>
-                    <li>codeWars:<a href="https://www.codewars.com/users/DaLPer"class="textCodeOrange">"DaLPer"</a> </li>
+                <ul class="contact_info code_format">
+                    <li>address:<span class="text_code_orange">"Minsk ,Belarus"</span> ,</li>
+                    <li>e-mail:<span class="text_code_orange">"kiborg7075@gmail.com"</span> ,</li>
+                    <li>linkedIn:<a href="https://www.linkedin.com/in/alisher-rakhmatullaev-b35482255/"class="text_code_orange nd">"alisher-rakhmatullaev"</a> ,</li>
+                    <li>gitHub:<a href="https://github.com/Da1per"class="text_code_orange nd" >"Da1per"</a> ,</li>
+                    <li>codeWars:<a href="https://www.codewars.com/users/DaLPer"class="text_code_orange nd">"DaLPer"</a> </li>
                 </ul>
                 &#125;
             </div>
-            <div class="skils mt">
+            <div id="skils" class="mt shadow">
                 <h2>Skils =</h2>
                 &#123;
-                <ul class="skilsInfo codeFormat">
-                    <li>HTML:<span class="textCodeOrange">"75%"</span>,</li>
-                    <li>CSS:<span class="textCodeOrange">"SASS, Bootstrap, BEM"</span>,</li>
-                    <li>JavaScript:<span class="textCodeOrange">"ES6+,DOM,OOP,Functional Programming"</span>,</li>
-                    <li>Version control:<span class="textCodeOrange">"Git"</span>,</li>
-                    <li>Figma:<span class="textCodeOrange">"56%"</span>,</li>
-                    <li>OS:<span class="textCodeOrange">"Windows, Linux"</span>,</li>
-                    <li>Editors:<span class="textCodeOrange">"VSCode"</span></li>
+                <ul class="skils_info code_format">
+                    <li>HTML:<span class="text_code_orange">"75%"</span>,</li>
+                    <li>CSS:<span class="text_code_orange">"SASS, Bootstrap, BEM"</span>,</li>
+                    <li>JavaScript:<span class="text_code_orange">"ES6+,DOM,OOP,Functional Programming"</span>,</li>
+                    <li>Version control:<span class="text_code_orange">"Git"</span>,</li>
+                    <li>Figma:<span class="text_code_orange">"56%"</span>,</li>
+                    <li>OS:<span class="text_code_orange">"Windows, Linux"</span>,</li>
+                    <li>Editors:<span class="text_code_orange">"VSCode"</span></li>
                 </ul>
                 &#125;
             </div>
-            <div class="codeEx mt">
+            <div id="code_ex" class="mt shadow">
                 <h2>Code=</h2>
                 &#123;
                 <pre>
@@ -82,36 +83,37 @@
                     </pre>
                 &#125;
             </div>
-            <div class="projects mt">
-                <h2> Projects</h2>
+            <div  id="projects" class="mt shadow">
+                <h2> Projects=</h2>
                 &#123;
-                <p class="codeFormat">project: <span class="textCodeOrange">"coming soon ))"</span> </p>
+                <p class="code_format ml">project: <span class="text_code_orange">"coming soon ))"</span> </p>
                 &#125;
             </div>
-            <div class="educetion mt">
+            <div id="educetion" class="mt shadow">
                 <h2>Education=</h2>
                 &#123;
-                <ul class="skilsInfo codeFormat">
-                    <li>BelarusianNationalTechnicalUniversity: <span class="textCodeOrange">"Faculty of Information Technology and Robotics (Automated electric drives)"</span>,</li>
-                    <li>Freecodecamp: <span class="textCodeOrange">"JavaScript Algorithms and Data Structures"</span></li>
+                <ul id="skils_info "  class="code_format">
+                    <li>BelarusianNationalTechnicalUniversity: <span class="text_code_orange">"Faculty of Information Technology and Robotics (Automated electric drives)"</span>,</li>
+                    <li>Freecodecamp: <span class="text_code_orange">"JavaScript Algorithms and Data Structures"</span></li>
                 </ul>
                 &#125;
             </div>
-            <div class="english">
+            <div id="english" class="mt shadow">
                 <h2>English =</h2>
                 &#123;
-                <ul class="codeFormat">
-                    <li>EnglishLVL: <span class="textCodeOrange">"A1+"</span></li>
+                <ul class="code_format">
+                    <li>EnglishLVL: <span class="text_code_orange">"A1+"</span></li>
                 </ul>
                 &#125;
             </div>
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer ">
         <div class="container">
             <div class="ft">
-                <a href="https://github.com/Da1per">Da1lper1</a>
-
+                <a class="link_git nd" href="https://github.com/Da1per">Da1per</a>
+                2022
+                <a href="https://rs.school/js/"><img class="img_rs" src="https://rs.school/images/rs_school_js.svg" alt="rss_img"></a>
             </div>
         </div>
     </footer>
