@@ -78,6 +78,10 @@ body{
     font-family: Source Code Pro;
     background: #ffffff;
 }
+.avatar{
+    border-radius: 50%;
+    width: 10%;
+}
 .footer {
     box-shadow: 0 0 10px #00000080;
     padding: 5px;
