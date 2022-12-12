@@ -1,1 +1,1 @@
-https://da1per.github.io/rsschool-cv
+https://da1per.github.io/rsschool-cv/
