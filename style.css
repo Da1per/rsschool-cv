@@ -52,7 +52,11 @@ h1{
     box-shadow: 0 0 10px #00000080;
 }
 .mobile_on{
-  display: none;
+    display: none;
+}
+
+.mobile_bg{
+    display:none;
 }
 .nd{
     text-decoration: none;
@@ -69,7 +73,6 @@ h1{
 .flex{
     display: flex;
     flex-direction: column;
-    
 }
 .code_format {
     color: #000872;
@@ -99,7 +102,6 @@ h1{
 .ft{
     display: flex;
     justify-content: space-around;
-
 }
 .link_git{
     color:#000872 ;
@@ -108,36 +110,49 @@ h1{
 .img_rs{
     width: 2em;
 }
-.mobile_bg{
- color:#FF0000 ;
-}
 @media screen and (max-width: 479px){
   body{
     font-size: 14px;
   }
   .header{
-    
     width: 15%;
   }
   .nav_bar{
-   
-    font-size: 10px;
+    justify-content: center;
+    font-size: 14px;
+    background: #ffffff;
+    width: 160%;
   }
   .nav_list{
-   flex-wrap: wrap; 
+    padding: 0;
+    flex-direction: column;
   }
   .nav_list li{
-    margin: 0.8em;
+    margin: 0.5em;
   }
   .code_ex_size{
     font-size: 9px;
   }
   .footer{
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .header{
+    background: none;
+    box-shadow:none;
   }
   .mobile_on{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
     margin: 0 auto;
+    height: 50px;
   }
-  
+  .elem1,.elem2,.elem3{
+    margin: 0% auto;
+    background: #000000;
+    width:40px;
+    height: 5px;
+    border:1px solid #575757;
+}
 }
