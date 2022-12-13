@@ -7,8 +7,10 @@ html{
 }
 body{
     font-family: Secular One;
-    font-size: 20px;
-    
+    font-size: 16px;
+}
+h1{
+  text-align: center;
 }
 .container{
     max-width: 1440px;
@@ -58,6 +60,9 @@ body{
 .ml{
     margin-left: 40px;
 }
+.pd{
+  padding: 5px 10px;
+}
 .flex{
     display: flex;
     flex-direction: column;
@@ -99,4 +104,26 @@ body{
 }
 .img_rs{
     width: 2em;
+}
+@media screen and (max-width: 479px){
+  body{
+    font-size: 14px;
+  }
+  .header{
+    
+    width: 15%;
+  }
+  .nav_bar{
+   
+    font-size: 10px;
+  }
+  .nav_list{
+   flex-wrap: wrap; 
+  }
+  .nav_list li{
+    margin: 0.8em;
+  }
+  .code_ex_size{
+    font-size: 9px;
+  }
 }
