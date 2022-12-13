@@ -7,7 +7,7 @@ html{
 }
 body{
     font-family: Secular One;
-    font-size: 16px;
+    font-size: 20px;
 }
 h1{
   text-align: center;
@@ -28,7 +28,7 @@ h1{
 }
 .nav_bar{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .nav_list{
     display: flex;
