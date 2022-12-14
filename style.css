@@ -121,7 +121,7 @@ h1{
     justify-content: center;
     font-size: 14px;
     background: #ffffff;
-    width: 160%;
+    width: 180%;
   }
   .nav_list{
     padding: 0;
@@ -155,4 +155,17 @@ h1{
     height: 5px;
     border:1px solid #575757;
 }
+}
+
+.nav_link:hover{
+  text-decoration: red 2px underline;
+  transition:all 2s;
+}
+.nav_link:hover:before {
+  content: '</ ';
+  color:blue;
+}
+.nav_link:hover:after{
+  content: ' >';
+  color:blue;
 }
