@@ -4,7 +4,7 @@
 ===
 
 ### Contacts:
-    GitHub:[https://github.com/Da1per](Da1per)
-    linkedin:[https://by.linkedin.com/in/alisher-rakhmatullaev-b35482255](Alisher)
+    GitHub:[Da1per](https://github.com/Da1per)
+    linkedin:[Alisher](https://by.linkedin.com/in/alisher-rakhmatullaev-b35482255))
     
 
